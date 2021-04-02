@@ -151,6 +151,8 @@
                     }
                 }elseif(isset($_GET['editMe'])){
                     include('editUser.php');
+                }elseif(isset($_GET['valid'])){
+                    include('validateUser.php');
                 }else{
                     echo "<div class='jumbotron jumbotron-fluid'>
                     <div class='container'>
